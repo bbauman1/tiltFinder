@@ -91,4 +91,7 @@ def getTiltedList():
         print '\t{0:16}\t|\t{1:16}\t\t|\t{2:16}'.format(player_name, player_champion, player_tilt)
     print('\n')
 
-getTiltedList();
+if(api_key == 'YOUR_API_KEY_HERE'):
+    print "You need to enter your own api key"
+else:
+    getTiltedList();
